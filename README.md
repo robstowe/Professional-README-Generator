@@ -1,8 +1,8 @@
 
-# readme generator
+# Professional README generator
 
 ## Description
-test readme
+An automated README generator to create README's on future projects
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -13,21 +13,19 @@ test readme
 - [Questions](#Questions)
 
 ## Installation
-test
+Example text
 
 ## Licenses
 MIT
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Contribution
-test
+Rob Stowe
 
 ## Tests
-test
+Utilizing console.log to ensure this is working properly
 
 ## Questions
-Questions can be directed to test
+Questions can be directed to robstowe94@gmail.com
 
-https://github.com/test
-
-
+https://github.com/robstowe
