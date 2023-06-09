@@ -1,19 +1,22 @@
 
-# Professional README generator
+# Professional README.md Generator
 
 ## Description
-An automated README generator to create README's on future projects
+An automated ReadMe generator
 
 ## Table of Contents
-- [Installation](#Installation)
-- [Usage](#Usage)
+- [Installation](#installation)
+- [Usage](#usage)
 - [Licenses](#licenses)
 - [Contribution](#contribution)
-- [Tests](#test)
-- [Questions](#Questions)
+- [Testing](#testing)
+- [Questions](#questions)
 
 ## Installation
-Example text
+Inquirer needs to be installed to generate user prompts.
+
+## Usage
+To create READMEs on all future assignments.
 
 ## Licenses
 MIT
@@ -22,8 +25,8 @@ MIT
 ## Contribution
 Rob Stowe
 
-## Tests
-Utilizing console.log to ensure this is working properly
+## Testing
+Testing was done via the console log.
 
 ## Questions
 Questions can be directed to robstowe94@gmail.com

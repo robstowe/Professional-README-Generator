@@ -10,15 +10,18 @@ const createREADME = (response) =>
 ${response.description}
 
 ## Table of Contents
-- [Installation](#Installation)
-- [Usage](#Usage)
+- [Installation](#installation)
+- [Usage](#usage)
 - [Licenses](#licenses)
 - [Contribution](#contribution)
-- [Tests](#test)
-- [Questions](#Questions)
+- [Testing](#testing)
+- [Questions](#questions)
 
 ## Installation
 ${response.installation}
+
+## Usage
+${response.usage}
 
 ## Licenses
 ${response.licenses}
@@ -27,8 +30,8 @@ ${response.licenses}
 ## Contribution
 ${response.contribution}
 
-## Tests
-${response.test}
+## Testing
+${response.testing}
 
 ## Questions
 Questions can be directed to ${response.userEmail}
@@ -40,27 +43,27 @@ inquirer.prompt([
     {  
         type: "input" ,
         message: "What is the name of the project?",
-        name: "title"
+        name: "title",
     },
     {   
         type: "input" ,
         message: "What is the name of the user?",
-        name: "userName"
+        name: "userName",
     },
     {  
         type: "input" ,
         message: "Please provide a description of the project",
-        name: "description"
+        name: "description",
     },
     {   
         type: "input" ,
         message: "What is the installation process?",
-        name: "installation"
+        name: "installation",
     },
     {   
         type: "input" ,
         message: "How will this project be used?",
-        name: "usage"
+        name: "usage",
     },
     {   
         type: "list" ,
@@ -71,23 +74,23 @@ inquirer.prompt([
     {   
         type: "input" ,
         message: "Who were the contributors to this project?",
-        name: "contribution"
+        name: "contribution",
     },
     {   
         type: "input" ,
-        message: "What is the test process for this project?",
-        name: "test"
+        message: "What is the testing process for this project?",
+        name: "testing",
     },
     {   
         type: "input" ,
         message: "What is the user github email address?",
-        name: "userEmail"
+        name: "userEmail",
         
     },
     {   
         type: "input" ,
         message: "What is your github username",
-        name: "gitName"
+        name: "gitName",
         
     },
 
